@@ -1,0 +1,345 @@
+nav {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    z-index: 999;
+    top: 2%;
+}
+ul {
+    list-style: none;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+ul > li {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 36px;
+    padding-right: 46px;
+    background: url('../images/dot.png') right center no-repeat;
+    font-size: 19px;
+    font-family: 'DBHelvethaicaMonX';
+    line-height: 19px;
+    display: inline-block;
+}
+
+ul > li > a.last {
+    background: none;
+    padding-right: 0px;
+}
+
+
+.container {
+    width: 1200px;
+    /*border:1px solid red;*/
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-header {
+    width: 277px;
+    height: 177px;
+    position: absolute;
+    top: -10px;
+    left: -25px;
+}
+
+#fullpage {
+    position: absolute !important;
+    top: 0;
+}
+
+#banner {
+    margin-top: -70px;
+}
+
+#banner img {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.left {
+    float: left;
+    width: 36.333333%;
+}
+.left img {
+    float: left;
+    width: 100%;
+}
+.right {
+    float: right;
+    width: 33.333333%;
+}
+
+.right img {
+    float: right;
+    width: 80%;
+}
+
+.center {
+    text-align: center;
+    float: left;
+    width: 30.333333%;
+}
+.center img {
+    display: inline-block;
+    width: 90%;
+}
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+    text-align:center;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/*solves problem with overflowing video in Mac with Chrome */
+#home{
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-color: #FFFFFF; /* in case the video doesn't fit the whole page*/
+    background-image: url('../images/bg1.jpg');
+    background-position: center center;
+    background-size: cover;
+    z-index:3;
+}
+#vdo{
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-color: #FFFFFF; /* in case the video doesn't fit the whole page*/
+    background-image: url('../images/bg2.jpg');
+    background-position: center center;
+    background-size: cover;
+    z-index:3;
+}
+#gallery{
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-color: #FFFFFF; /* in case the video doesn't fit the whole page*/
+    background-image: url('../images/bg3.jpg');
+    background-position: center center;
+    background-size: cover;
+    z-index:3;
+}
+
+#enter {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+}
+
+#vdo-gallery {
+    width: 885px;
+    margin: 0 auto;
+}
+#vdo-gallery h2 {
+    width: 50%;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    /* padding-left: 29px; */
+    margin-left: 29px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'DBHelvethaicaMonX';
+}
+
+.vdo {
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    height: 500px;
+}
+
+.box-vdo {
+    float: left;
+    width: 234px;
+    margin: 29px;
+    position: relative;
+}
+
+.box-vdo a {
+    position: relative;
+}
+
+.box-vdo a span {
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    display: none;
+}
+
+.scrollbar-inner > .scroll-element .scroll-bar {
+    background-color: #fff;
+    opacity: 1;
+}
+
+
+
+#group-gallery {
+
+    margin: 0 auto;
+}
+
+#group-gallery h2 {
+    width: 50%;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    /* padding-left: 29px; */
+    margin-left: 200px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'DBHelvethaicaMonX';
+}
+
+
+.box-gallery {
+    width: 277px;
+    height: 258px;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.box-gallery:nth-child(6) {
+    margin-left: 160px;
+}
+
+
+.box-gallery img {
+    display: block;
+    width: 100%;
+    height: 219px;
+}
+
+.box-gallery .box-control {
+    width: 100%;
+    display: block;
+    height: 49px;
+    background-color: #fff;
+    margin-top: -1px;
+}
+.box-control a.love {
+    float: left;
+    display: block;
+    width: 52px;
+    height: 49px;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    line-height: 55px;
+    color: #666;
+}
+
+.box-control a.share {
+    float: right;
+    width: 82px;
+    height: 49px;
+    background-color: #e6e6e6;
+    color: #7e7e7e;
+    line-height: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.fancybox-skin {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+img.fancybox-image {
+    cursor: pointer;
+}
+
+
+#choose-u {
+
+    margin: 0 auto;
+}
+
+#choose-u h2 {
+    width: 50%;
+    float: left;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    /* padding-left: 29px; */
+    margin-left: 200px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'DBHelvethaicaMonX';
+}
+
+.profile {
+    width: 30%;
+    float: left;
+    color: #fff;
+    padding-top: 25px;
+    font-family: 'DBHelvethaicaMonX';
+}
+
+.profile img {
+    border-radius: 35px;
+    width: 50px;
+    float: right;
+
+}
+.profile span {
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#frm-choose {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 100px 0px 50px 0px;
+}
+
+#frm-choose select {
+    width: 654px;
+    height: 117px;
+    -webkit-appearance: none;
+    background: url('../images/bg-select.png') no-repeat top center;
+    border: 0px;
+    font-family: 'DBHelvethaicaMonX';
+    color: #53c3c7;
+    text-align-last:center;
+    font-size: 24px;
+    margin: 100px 0px 100px 0px;
+}
+
+#frm-choose select option {
+    font-family: 'DBHelvethaicaMonX';
+    text-align: center;
+    color: #53c3c7;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+#frm-choose button {
+    background: url('../images/btn-choose.png') no-repeat top center;
+    width: 297px;
+    height: 97px;
+    border: 0px;
+    color: transparent;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 6px;
+    background-color: #fff;
+    margin: 45px 0px 20px 0px;
+}

@@ -1,0 +1,1 @@
+<img src="<?php echo base_url();?>assets/images/login.png" alt="" style='width: 400px; height: 430px;'> 
